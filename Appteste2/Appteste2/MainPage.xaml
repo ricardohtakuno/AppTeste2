@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Appteste2"
+             x:Class="Appteste2.MainPage">
+    <!--
+    <StackLayout Spacing="50" x:Name="layout">
+        <BoxView Color="Red" VerticalOptions="FillAndExpand" />
+        <BoxView Color="Orange" VerticalOptions="FillAndExpand" />
+        <BoxView Color="Black" VerticalOptions="FillAndExpand" />
+        <BoxView Color="Pink" VerticalOptions="FillAndExpand" />
+        <BoxView HeightRequest="75" Color="Blue" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <StackLayout x:Name="layout">
+        <BoxView Color="Brown" VerticalOptions="FillAndExpand" />
+        <BoxView Color="Green" VerticalOptions="FillAndExpand" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <StackLayout x:Name="layout">
+        <BoxView Color="Purple" VerticalOptions="FillAndExpand" />
+        <BoxView Color="Black" VerticalOptions="FillAndExpand" />
+        <BoxView Color="Red" VerticalOptions="FillAndExpand" />
+        <BoxView Color="Beige" VerticalOptions="FillAndExpand" />
+        <BoxView HeightRequest="75" Color="Blue" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <StackLayout x:Name="layout">
+        <BoxView HeightRequest="75" Color="Green" />
+        <BoxView Color="Yellow" VerticalOptions="FillAndExpand" />
+        <BoxView Color="Beige" VerticalOptions="FillAndExpand" />
+        <BoxView HeightRequest="75" Color="Blue" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <StackLayout x:Name="layout">
+        <Button VerticalOptions="Start" HorizontalOptions="FillAndExpand" />
+        <BoxView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+        <BoxView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+        <BoxView HeightRequest="75" VerticalOptions="End" HorizontalOptions="FillAndExpand" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <StackLayout Padding="5,10">
+        <Label TextColor="#ff0000" FontSize="20" Text="Esta é uma label" />
+        <Label TextColor="#ff0000" FontSize="20" Text="Esta é a segunda label" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <StackLayout Padding="5,10">
+        <Label TextColor="#ff0000" BackgroundColor="Black"  FontSize="50" Text="Olá Mundo" />
+        <Label TextColor="Yellow" BackgroundColor="Black"  FontSize="50" Text="Seja bem vindo" />
+        <Label TextColor="Green" BackgroundColor="Black"  FontSize="50" Text="Ao" />
+        <Label TextColor="Blue" BackgroundColor="Black"  FontSize="50" Text="meu" />
+        <Label TextColor="Red" BackgroundColor="Black"  FontSize="50" Text="APP" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <StackLayout Padding="5,10">
+        <Entry Text="Caixa de Texto" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <StackLayout Padding="5,10">
+        <Entry Placeholder="Usuario" TextColor="Red" BackgroundColor="Yellow" Keyboard="Default" />
+        <Entry Placeholder="Senha" IsPassword="True" Keyboard="Default" />
+    </StackLayout>
+    -->
+    
+    <!--
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+
+        <BoxView BackgroundColor="DarkCyan" Grid.Row="0" Grid.Column="0" />
+        <BoxView BackgroundColor="Yellow" Grid.Row="0" Grid.Column="1" />
+        <BoxView BackgroundColor="Orange" Grid.Row="1" Grid.Column="0" />
+        <BoxView BackgroundColor="DarkOliveGreen" Grid.Row="1" Grid.Column="1" />
+        
+    </Grid>
+    -->
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Oláaaaaa"  BackgroundColor="DarkCyan" Grid.Row="0" Grid.Column="0" />
+        <Label Text="Eeeeeee"  BackgroundColor="Yellow" Grid.Row="0" Grid.Column="1" />
+        <Label Text="Aaaaaaa"  BackgroundColor="Orange" Grid.Row="1" Grid.Column="0" />
+        <Label Text="APPPPPP"  BackgroundColor="DarkOliveGreen" Grid.Row="1" Grid.Column="1" />
+
+    </Grid>
+
+</ContentPage>
